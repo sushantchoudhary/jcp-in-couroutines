@@ -1,0 +1,16 @@
+*.iml
+.gradle
+# Applies to all subdirectories
+.DS_Store
+
+# Applies to root directory
+/.idea
+/local.properties
+build/
+gen/
+
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
