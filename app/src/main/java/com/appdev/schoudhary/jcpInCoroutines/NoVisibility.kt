@@ -1,10 +1,8 @@
 package com.appdev.schoudhary.jcpInCoroutines
 
-import kotlin.properties.Delegates
-
 class NoVisibility {
-    var ready by Delegates.notNull<Boolean>()
-    var number by Delegates.notNull<Int>()
+    var ready = false
+    var number = 0
 
 
     inner class ReaderThread: Thread() {
@@ -12,6 +10,7 @@ class NoVisibility {
            while (!ready) {
                yield()
            }
+            println(number)
         }
     }
 }
@@ -21,5 +20,4 @@ fun main() {
     noVisibility.ReaderThread().start()
     noVisibility.number = 42
     noVisibility.ready = true
-
 }
