@@ -1,4 +1,4 @@
-package com.appdev.schoudhary.jcpInCoroutines
+package com.appdev.schoudhary.jcpInKotlin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

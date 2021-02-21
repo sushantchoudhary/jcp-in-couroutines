@@ -1,4 +1,4 @@
-package com.appdev.schoudhary.jcpInCoroutines
+package com.appdev.schoudhary.jcpInKotlin
 
 class ThisEscape() {
     inner class ThisEscape(source: EventSource) {

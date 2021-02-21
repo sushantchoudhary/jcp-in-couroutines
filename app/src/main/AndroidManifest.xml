@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appdev.schoudhary.jcpInCoroutines">
+    package="com.appdev.schoudhary.jcpInKotlin">
 
     <application
         android:allowBackup="true"

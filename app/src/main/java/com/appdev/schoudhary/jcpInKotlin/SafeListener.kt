@@ -1,6 +1,6 @@
-package com.appdev.schoudhary.jcpInCoroutines
+package com.appdev.schoudhary.jcpInKotlin
 
-import com.appdev.schoudhary.jcpInCoroutines.EventListener as EventListener1
+import com.appdev.schoudhary.jcpInKotlin.EventListener as EventListener1
 
 class SafeListener {
     private val  listener: EventListener1 = object : EventListener1 {
