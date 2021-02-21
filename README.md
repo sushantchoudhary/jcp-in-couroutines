@@ -1,4 +1,4 @@
-# Examples from Java concurrency in practice book, implemented with Kotlin and Coroutine.
+# Examples from Java concurrency in practice book, implemented with Kotlin and Coroutines.
 
 ## Work in progress...
 
